@@ -1,0 +1,9 @@
+opencv-python==4.8.1.78
+numpy==1.24.3
+scikit-image==0.21.0
+Pillow==10.0.0
+rembg==2.0.50
+PyYAML==6.0.1
+ttkbootstrap==1.10.1
+reportlab==4.0.4
+matplotlib==3.7.2
