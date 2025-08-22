@@ -3,12 +3,15 @@ app_name: "NIR Image Enhancer"
 version: "1.0.0"
 
 # GUI settings
-window_size: "1200x900"
-theme: "darkly" # Use 'cosmo', 'flatly', 'journal', 'litera', 'lumen', 'minty', 'pulse', 'sandstone', 'united', 'yeti'
+gui_settings:
+  window_size: "1200x900"
+  theme: "darkly" # Use 'cosmo', 'flatly', 'journal', 'litera', 'lumen', 'minty', 'pulse', 'sandstone', 'united', 'yeti'
 
 # Processing settings
-default_contrast_limit: 15.0
-default_num_clusters: 4
+processing_settings:
+  default_contrast_limit: 15.0
+  default_num_clusters: 4
 
 # Paths
-output_dir: "output"
+paths:
+  output_dir: "output"

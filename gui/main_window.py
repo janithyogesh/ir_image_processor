@@ -13,8 +13,8 @@ import os
 class MainWindow(ttk.Window):
     def __init__(self, config):
         self.config = config
-        super().__init__(title=self.config['app_name'], themename=self.config['theme'])
-        self.geometry(self.config['window_size'])
+        super().__init__(title=self.config['app_name'], themename=self.config['gui_settings']['theme'])
+        self.geometry(self.config['gui_settings']['window_size'])
         
         # Initialize core components
         self.logger = setup_logging()
